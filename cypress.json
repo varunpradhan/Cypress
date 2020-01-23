@@ -1,0 +1,15 @@
+{
+  "animationDistanceThreshold": 15,
+  "defaultCommandTimeout": 6000,
+  "pageLoadTimeout": 180000,
+  "chromeWebSecurity": false,
+  "modifyObstructiveCode": false,
+  "video" : true,
+  "testFiles": "**/*.feature",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": true,
+    "json": true
+  }
+}
